@@ -67,7 +67,13 @@ table {
     TYPOGRAPHY
 =================================================
 */
-
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+}
+h1, h2, h4, p {
+    margin-bottom: 1em;
+}
 
 /*
 =================================================
