@@ -64,18 +64,41 @@ table {
 
 /*
 =================================================
-    IMAGES
+    TYPOGRAPHY
+=================================================
+*/
+
+
+/*
+=================================================
+    HOME
 =================================================
 */
 .img-main {
+    display: block;
     height: auto;
-    max-width: 960;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 /*
 =================================================
-    TYPOGRAPHY
+    RECIPES
 =================================================
 */
+
+.fig {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin: 0;
+}
+.brief {
+    float: right;
+    width: 800px;
+}
+.recipe::after {
+    content: "";
+    display: table;
+    clear: both;
+}
