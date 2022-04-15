@@ -142,7 +142,9 @@ a {
     RECIPES
 =================================================
 */
-
+.recipe {
+    padding: 22px 0;
+}
 .fig {
     float: left;
     width: 150px;
