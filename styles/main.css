@@ -49,6 +49,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*
+=================================================
+    Custom styles
+=================================================
+*/
+
 
 /*
 =================================================
@@ -68,8 +74,7 @@ table {
 =================================================
 */
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 14px;
+    font: 300 14px/22px "Raleway", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h1, h2, h4, p {
     margin-bottom: 1em;
