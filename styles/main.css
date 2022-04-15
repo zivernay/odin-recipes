@@ -78,6 +78,7 @@ table {
 =================================================
 */
 body {
+    color: #bc7b4c;
     font: 300 14px/22px "Raleway", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h1, h2, h4, p {
@@ -116,6 +117,21 @@ h2 {
     width: 800px;
     margin: 0 auto;
 }
+
+/*
+=================================================
+    Links
+=================================================
+*/
+a {
+    text-decoration: none;
+    color: #999;
+}
+.brief a {
+    border-left: 2px solid #ff000095;
+    padding-left: 1em;
+}
+
 
 /*
 =================================================
